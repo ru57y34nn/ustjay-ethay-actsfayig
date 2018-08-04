@@ -27,7 +27,7 @@ def home():
     response = requests.post(pig_url, data={'input_text': fact}, allow_redirects=False,)
     url_header = response.headers['Location']
 
-    return <a href={}>{}</a>.format(url_header, url_header)
+    return '<a href={}>{}</a>'.format(url_header, url_header)
 
 
 if __name__ == "__main__":
